@@ -4,10 +4,6 @@ $(function() {
         newItem = $('#shopping-list-entry').val();
         console.log(newItem);
         $("ul").append(
-            // "<li>" +
-            // ["cat", "dog", "rock"][Math.floor(Math.random()*3)] + "</li>"
-
-
             "<li>" +
             '<span class="shopping-item">'+newItem+'</span>'+
             '<div class="shopping-item-controls">'+
